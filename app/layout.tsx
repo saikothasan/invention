@@ -15,15 +15,15 @@ export const metadata: Metadata = {
   title: 'PasteBin - Share Code Snippets',
   description: 'A modern, secure pastebin for sharing code snippets and text online.',
   keywords: 'pastebin, code sharing, text sharing, developer tools',
-  authors: [{ name: 'Your Name' }],
+  authors: [{ name: 'Saikothasan' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-pastebin-url.com',
+    url: 'https://innv.vercel.app',
     siteName: 'PasteBin',
     images: [
       {
-        url: 'https://your-pastebin-url.com/og-image.png',
+        url: 'https://innv.vercel.app/og.jpg',
         width: 1200,
         height: 630,
         alt: 'PasteBin - Share Code Snippets',
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@your_twitter_handle',
-    creator: '@your_twitter_handle',
+    site: '@saikothasan',
+    creator: '@saikothasan',
   },
 }
 
@@ -56,7 +56,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="bg-primary text-primary-foreground p-2 text-center">
-            <Link href="https://t.me/pastebincommunity" target="_blank" rel="noopener noreferrer">
+            <Link href="https://t.me/drkingbd" target="_blank" rel="noopener noreferrer">
               Join our Telegram community!
             </Link>
           </div>
