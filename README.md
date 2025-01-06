@@ -16,23 +16,25 @@ PasteBin is a modern, feature-rich text and code sharing platform built with Nex
 To run PasteBin locally, follow these steps:
 
 1. Clone the repository:
-   \`\`\`
+   ```
    git clone https://github.com/saikothasan/invention
+   ```
+   ```
    cd invention
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`
+   ```
    npm install
-   \`\`\`
+   ```
 
 3. Set up your environment variables:
-   Copy the \`.env.example\` file to \`.env.local\` and fill in the required values.
+   Copy the `.env.example` file to `.env.local` and fill in the required values.
 
 4. Run the development server:
-   \`\`\`
+   ```
    npm run dev
-   \`\`\`
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
