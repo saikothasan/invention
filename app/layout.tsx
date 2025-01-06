@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: 'PasteBin - Share Code Snippets',
   description: 'A modern, secure pastebin for sharing code snippets and text online.',
   keywords: 'pastebin, code sharing, text sharing, developer tools',
-  authors: [{ name: 'Your Name' }],
+  authors: [{ name: 'Saikothasan' }],
   manifest: '/site.webmanifest',
   icons: {
     icon: '/favicon.ico',
