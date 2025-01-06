@@ -20,7 +20,7 @@ export function Header() {
         </nav>
         <div className="ml-auto flex items-center gap-2">
           <ModeToggle />
-          <Link href="https://github.com/yourusername/pastebin">
+          <Link href="https://github.com/saikothasan/invention">
             <Button variant="ghost" size="icon">
               <Github className="h-4 w-4" />
             </Button>
