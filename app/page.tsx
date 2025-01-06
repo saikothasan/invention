@@ -1,4 +1,3 @@
-import { Header } from '@/components/header'
 import { PasteForm } from '@/components/paste-form'
 import { Suspense } from 'react'
 import { RecentPastes } from '@/components/recent-pastes'
@@ -6,7 +5,6 @@ import { RecentPastes } from '@/components/recent-pastes'
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
       <main className="flex-1 container max-w-5xl py-8 px-4 md:py-10 space-y-8">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1 space-y-6">
