@@ -15,7 +15,13 @@ export const metadata: Metadata = {
   title: 'PasteBin - Share Code Snippets',
   description: 'A modern, secure pastebin for sharing code snippets and text online.',
   keywords: 'pastebin, code sharing, text sharing, developer tools',
-  authors: [{ name: 'Saikothasan' }],
+  authors: [{ name: 'Your Name' }],
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-96x96.png',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -23,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'PasteBin',
     images: [
       {
-        url: 'https://innv.vercel.app/og.jpg',
+        url: 'https://innv.vercel.app/web-app-manifest-512x512.png',
         width: 1200,
         height: 630,
         alt: 'PasteBin - Share Code Snippets',
@@ -34,6 +40,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@saikothasan',
     creator: '@saikothasan',
+  },
+  verification: {
+    google: 'VFOQfy__erVvmj4v6M9wXQ7kfOrsIephtjouoPrg3NE',
   },
 }
 
